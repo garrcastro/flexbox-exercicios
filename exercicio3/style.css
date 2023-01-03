@@ -17,22 +17,30 @@ section{
   background-color: steelblue;
   color: white;
   display: flex;
-  justify-content: center;
+  justify-content: space-around;
   align-items: center;
   flex-basis: 80px;
 }
 
 #section-1{
+  order: 2;
 }
 
 #section-2{
+  order:3;
+  flex-grow: 2;
 }
 
 #section-3{
+  order: 4;
+  flex-grow: 3;
 }
 
 #section-4{
+  order: 5;
+  flex-basis: 200px;
 }
 
 #section-5{
+  order: 1;
 }
